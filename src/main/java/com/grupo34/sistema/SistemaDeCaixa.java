@@ -31,11 +31,11 @@ public class SistemaDeCaixa { // Classe Main para testar o sistema
                     // Inserir cliente
                     System.out.print("\nInforme o nome do cliente: ");
                     String nome = scanner.next();
-                    System.out.print("Informe o CPF do cliente: ");
+                    System.out.print("\nInforme o CPF do cliente: ");
                     String cpf = scanner.next();
-                    System.out.print("Informe o celular do cliente: ");
+                    System.out.print("\nInforme o celular do cliente: ");
                     String celular = scanner.next();
-                    System.out.print("Informe o email do cliente: ");
+                    System.out.print("\nInforme o email do cliente: ");
                     String email = scanner.next();
 
                     Cliente novoCliente = new Cliente(nome, cpf, celular, email);
